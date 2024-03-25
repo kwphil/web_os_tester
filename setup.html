@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Setup</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="kwphil https://www.github.com">
+        <meta name="description" content="OS tester, all online!">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="setup">
+            <h2>Setup</h2>
+            <div class="settings">
+                <label>Settings (Leave blank for default settings)</label></br>
+                <input type="text" id="settings">
+            </div>
+            <div class="upload-type">
+                <label>Code upload type</label></br>
+                <select id="upload-type">
+                    <option value="file-upload">File Upload</option>
+                    <option value="code-copy-hex">Copy Code (hex)</option>
+                    <option value="code-copy-dec">Copy Code (dec)</option>
+                    <option value="code-copy-ascii">Copy Code (ascii)</option>
+                </select>
+            </div>
+            <div class="upload">
+                <label>Upload</label></br>
+                <input type="file" id="upload-file">
+                <input type="text" id="code-copy">
+            </div>
+        </div>
+    </body>
+</html>
